@@ -1,0 +1,10 @@
+linter:
+  eslint:
+    dir: frontend/app
+    config: .my_eslintrc
+    ext: ".js,.jsx,.es6"
+    ignore-path: .my_eslintignore
+    no-ignore: true
+    ignore-pattern: "/src/vendor/*"
+    global: "require,exports:true"
+    quiet: true
